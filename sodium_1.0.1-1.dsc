@@ -10,11 +10,11 @@ Package-List:
  libsodium deb misc optional arch=any
  libsodium-dev deb misc optional arch=all
 Checksums-Sha1:
- 57e2faf2115840c2374ad5cb8aea22e6b78bc981 45 sodium_1.0.1.orig.tar.gz
- f063a81e53dd8736cf81dd8fb1490e27df752cad 788 sodium_1.0.1-1.debian.tar.xz
+ 38f230b2fbb5ace80638029003bb5ad1f3a63426 45 sodium_1.0.1.orig.tar.gz
+ 663f87a709fdf59a0cf84a5d7ac87919e96392b9 788 sodium_1.0.1-1.debian.tar.xz
 Checksums-Sha256:
- bee9bccf2f3118a7d325c3530819060992c38bbf5db7e10c6ac321e9976a1ca5 45 sodium_1.0.1.orig.tar.gz
- d75324ed85461413092c4a2c781c7c9a3f16d83c29543d98e64c68ad6d2a563e 788 sodium_1.0.1-1.debian.tar.xz
+ f7ca4d4538292030d19676c7ca23207bbcce0c2c83d24b674cd02504df30ac87 45 sodium_1.0.1.orig.tar.gz
+ 02e222546d5f41b95d40eced4f2e7356c00e007826abb28e6c6b1027e28406ab 788 sodium_1.0.1-1.debian.tar.xz
 Files:
- 2b3168c2ae9b65de53c5714327b69150 45 sodium_1.0.1.orig.tar.gz
- 79995f9bf99394f1082a191d39aba9d9 788 sodium_1.0.1-1.debian.tar.xz
+ 0f7b289eac7ad3f29dfecb3e7292b813 45 sodium_1.0.1.orig.tar.gz
+ a5023c12fd73fb4c6d769b9dbbd1fc82 788 sodium_1.0.1-1.debian.tar.xz
