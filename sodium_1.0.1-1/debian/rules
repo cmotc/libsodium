@@ -2,7 +2,7 @@
 %:
 	dh $@
 override_dh_auto_configure:
-	./configure --prefix=/home/dyngar-m/Projects/PersonalROM-schS738c/debian/sodium/usr
+	./configure --prefix=/home/dyngar-m/Projects/PersonalROM-schS738c/sodium/debian/sodium/usr
 override_dh_auto_build:
 	make
 override_dh_auto_install:

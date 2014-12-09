@@ -1,0 +1,30 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package sodium
+dpkg-buildpackage: source version 1.0.1-1
+dpkg-buildpackage: source distribution UNRELEASED
+dpkg-buildpackage: source changed by dyngar-m <dyngar-m@dyngar.local>
+ dpkg-source --before-build sodium_1.0.1-1
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b sodium_1.0.1-1
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building sodium using existing ./sodium_1.0.1.orig.tar.gz
+dpkg-source: info: building sodium in sodium_1.0.1-1.debian.tar.xz
+dpkg-source: info: building sodium in sodium_1.0.1-1.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   debian/rules override_dh_auto_configure
+make[1]: Entering directory '/home/dyngar-m/Projects/PersonalROM-schS738c/sodium/sodium_1.0.1-1'
+./configure --prefix=/home/dyngar-m/Projects/PersonalROM-schS738c/sodium/debian/sodium/usr
+make[1]: ./configure: Command not found
+debian/rules:5: recipe for target 'override_dh_auto_configure' failed
+make[1]: *** [override_dh_auto_configure] Error 127
+make[1]: Leaving directory '/home/dyngar-m/Projects/PersonalROM-schS738c/sodium/sodium_1.0.1-1'
+debian/rules:3: recipe for target 'build' failed
+make: *** [build] Error 2
+dpkg-buildpackage: error: debian/rules build gave error exit status 2

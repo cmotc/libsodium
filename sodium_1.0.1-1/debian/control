@@ -13,6 +13,6 @@ Description: libsodium
 
 Package: libsodium-dev
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, libsodium(= )
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsodium(= 1.0.1-1)
 Homepage: https://libsodium.org
 Description: libsodium development files
