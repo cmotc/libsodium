@@ -1,0 +1,10 @@
+Package: libsodium
+Source: sodium
+Version: 1.0.1-1
+Architecture: amd64
+Maintainer: cmotc cmotc@openmailbox.org
+Installed-Size: 29
+Section: misc
+Priority: optional
+Homepage: https://libsodium.org
+Description: libsodium

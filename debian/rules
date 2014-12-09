@@ -1,11 +1,3 @@
 #!/usr/bin/make -f
 %:
 	dh $@
-override_dh_auto_configure:
-	./configure --prefix=/home/dyngar-m/Projects/PersonalROM-schS738c/debian/sodium/usr
-override_dh_auto_build:
-	make
-override_dh_auto_install:
-	mkdir -p debian/sodium/usr debian/sodium-dev/usr
-	make install
-	mv debian/sodium/usr/include debian/sodium-dev/usr
